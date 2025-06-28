@@ -41,3 +41,6 @@ interface StatusInterface {
 
 interface AcessFileDataInterface extends FileDataInterface, StatusInterface {}
 interface AcessDataBaseDataInterface extends DataBaseDataInterface, StatusInterface {}
+
+//Use type para tipos primitivos, união/interseção, tuplas, etc.
+// Use interface para objetos e quando precisar de herança múltipla.
