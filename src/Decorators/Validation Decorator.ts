@@ -51,14 +51,14 @@ class FormularioUsuario {
   }
 }
 
-// Teste 1: Formulário correto
-const form1 = new FormularioUsuario("Ana", "ana@email.com");
-form1.validar(); // ✅ Tudo certo!
+// Teste 1
+const form1 = new FormularioUsuario("Pedro", "pedro@email.com");
+form1.validar(); 
 
-// Teste 2: Email inválido
+// Teste 2
 const form2 = new FormularioUsuario("João", "joaoemail.com");
-form2.validar(); // ❌ ERRO: "⚠️ email não é um email válido!"
+form2.validar();  
 
-// Teste 3: Campo faltando
+// Teste 3
 const form3 = new FormularioUsuario("", "maria@email.com");
-form3.validar(); // ❌ ERRO: "⚠️ nome é obrigatório!"
+form3.validar(); 
