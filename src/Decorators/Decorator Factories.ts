@@ -1,4 +1,9 @@
-// Define uma função 'logar' que é um decorator factory (fábrica de decorators).
+// Modifica métodos. Recebe:
+// target: Protótipo da classe (instância) ou construtor (estático)
+// key: Nome do método
+// descriptor: Descritor de propriedade (Object.defineProperty)
+
+// Define uma função 'logar' que é um decorator factory .
 // Ela recebe uma mensagem e retorna um decorator de método.
 // Decorator de método recebe: alvo (classe/protótipo), nome do método e descritor do método.
 function logar(mensagem: string) {

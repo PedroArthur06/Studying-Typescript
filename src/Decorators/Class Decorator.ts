@@ -1,3 +1,5 @@
+// Recebe o construtor da classe como parâmetro.
+
 // Define um decorator de classe chamado 'fogueteDecorador'.
 // Decorators de classe recebem o construtor da classe como argumento.
 // Aqui, ele adiciona duas propriedades ao protótipo da classe: 'combustivel' e 'decoradoEm'.
